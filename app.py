@@ -15,7 +15,7 @@ from typing import Any, Dict, List
 
 import streamlit as st
 from dotenv import load_dotenv
-from langchain.schema import Document
+from langchain_core.documents import Document
 
 from qa_chain import answer_query, summarize_documents
 from ingest import run_ingestion

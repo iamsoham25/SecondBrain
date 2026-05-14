@@ -1,12 +1,10 @@
 streamlit
-faiss-cpu
 langchain
 langchain-community
-huggingface_hub
-langchain-huggingface
-langchain-text-splitters
-pypdf
-docx2txt
+langchain-openai
+openai
+faiss-cpu
 tiktoken
-sentence-transformers
 python-dotenv
+pypdf
+sentence-transformers
