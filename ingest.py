@@ -10,7 +10,7 @@ Purpose:
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional
 
-from langchain.schema import Document
+from langchain_core.documents import Document
 from langchain_community.document_loaders import Docx2txtLoader, PyPDFLoader, TextLoader
 
 from utils.chunking import chunk_documents

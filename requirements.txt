@@ -8,3 +8,8 @@ tiktoken
 python-dotenv
 pypdf
 sentence-transformers
+langchain-huggingface
+huggingface-hub
+transformers
+torch
+torchvision

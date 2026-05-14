@@ -9,7 +9,7 @@ from pathlib import Path
 import re
 from typing import Any, Dict, List, Literal, Optional
 
-from langchain.schema import Document
+from langchain_core.documents import Document
 from langchain_community.vectorstores import FAISS
 
 from utils.embeddings import get_embedding_model
