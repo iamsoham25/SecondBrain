@@ -13,7 +13,7 @@ import os
 import re
 from typing import Any, Dict, List, Optional
 
-from langchain.schema import Document
+from langchain_core.documents import Document
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 
